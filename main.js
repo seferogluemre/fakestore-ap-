@@ -68,6 +68,7 @@ const renderProducts = (products) => {
     // Ürün değerlendirmesi
     const rating = product.rating.rate;
     const paragraph = document.createElement("p");
+    paragraph.classList.add("paragraph");
     paragraph.textContent = `Ürün Değerlendirmesi: ${rating}`;
 
     // Ürün başlığı ve fiyatı
