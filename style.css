@@ -1,0 +1,31 @@
+body {
+  font-size: 15px !important;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(212, 241, 243) !important;
+}
+
+#products li {
+  list-style-type: none;
+  width: 300px;
+  height: 350px;
+  border: 1px solid rgb(181, 181, 181);
+  padding: 10px 15px;
+  margin: 10px 15px;
+  border-radius: 15px;
+  transition: 0.3s ease-in-out;
+}
+li:hover {
+  box-shadow: 0 0 9px red;
+  transform: scale(1.07) translateY(-5px);
+}
+.productImage {
+  width: 90%;
+  height: 250px !important;
+  padding: 10px;
+  border-radius: 25px;
+}
+#select {
+  width: 250px;
+  box-shadow: 0 0 6px black;
+  cursor: pointer;
+}
